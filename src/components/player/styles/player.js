@@ -50,16 +50,16 @@ export const Close = styled.button`
     }
     
     &:hover {
-        transform: rotate(45deg);
+        transform: rotate(55deg);
     }
     &:after {
-        transform: rotate(-45deg);
+        transform: rotate(-55deg);
     }
 `
 
 export const Button = styled.button`
-    background-color: #e50914;
-    border-color: #ff0a16;
+    background-color: #265d0c;
+    border-color: #419a1c;
     width: 115px;
     height: 45px;
     text-transform: uppercase;
@@ -75,6 +75,6 @@ export const Button = styled.button`
     
     &:hover {
         transform: scale(1.05);
-        background-color: #ff0a16;
+        background-color: #419a1c;
     }
 `

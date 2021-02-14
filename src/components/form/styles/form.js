@@ -76,7 +76,7 @@ export const Input = styled.input`
 `
 
 export const Submit = styled.button`
-    background: #e50914;
+    background: #265d0c;
     border-radius: 4px;
     font-size: 16px;
     font-weight: bold;

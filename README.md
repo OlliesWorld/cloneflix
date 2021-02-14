@@ -1,4 +1,4 @@
-# title(){
+# CloneFlix(){
 		
 		return this.options.title || this.options.name;
 	}
