@@ -1,6 +1,9 @@
 # CloneFlix(){
 		
-		return this.options.title || this.options.name;
+		The last project in the Frontend Developer Path!
+		It was a blast and learned so MUCH!!
+
+		THANK YOU!!
 	}
 
 Quick start:

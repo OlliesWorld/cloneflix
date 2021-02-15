@@ -4,7 +4,7 @@ import { Link as ReachRouterLink } from 'react-router-dom'
 export const Background = styled.section`
     display: flex;
     flex-direction: column;
-    background: url(${({ src }) => (src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg')}) top left / cover no-repeat;
+    background: url(${({ src }) => (src ? `../images/misc/${src}.jpg` : '../images/misc/seats.jpeg')}) top left / cover no-repeat;
 
     @media (max-width: 1100px){
         ${({ dontShowOnSmallViewPort }) => dontShowOnSmallViewPort && `background: none;`}
@@ -51,7 +51,7 @@ export const ButtonLink = styled(ReachRouterLink)`
     box-sizing: border-box;
     
     &:hover {
-        background: #f40612;
+        background: #265d0c;
     }
 `
 
@@ -108,7 +108,7 @@ export const PlayButton = styled.button`
     transition: background-color 0.5s ease;
     
     &:hover {
-        background: #ff1e1e;
+        background: #265d0c;
         color: white;
     }
 `
