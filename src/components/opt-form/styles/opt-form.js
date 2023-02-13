@@ -6,6 +6,8 @@ export const Container = styled.div`
     height: 100%;
     margin-top: 20px;
     flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
     
     @media (max-width: 1000px) {
         flex-direction: column;
@@ -60,7 +62,7 @@ export const Text = styled.p`
     font-size: 19px;
     color: white;
     text-align: center;
-    
+ 
     @media (max-width: 600px) {
         font-size: 16px;
         line-height: 22px;

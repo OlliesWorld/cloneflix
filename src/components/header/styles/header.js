@@ -28,10 +28,14 @@ display: flex;
     }
 `
 
-export const Link = styled.p`
-    color: #fff;
+export const Link = styled.a`
+    color: rgb(31, 77, 12);
+    font-weight: bolder;
+    font-size: 2rem;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-top: 5rem;
+    /* margin-left: 1.2rem; */
     font-weight: ${({ active }) => (active === 'true' ? '700' : 'normal')};
     cursor: pointer;
 `
@@ -56,10 +60,10 @@ export const ButtonLink = styled(ReachRouterLink)`
 `
 
 export const Logo = styled.img`
-    height: 202px;
-    width: 208px;
+    height: 275px;
+    width: 275px;
     margin-right: 40px;
-
+    margin-top: 5rem;
 `
 
 export const Group = styled.div`
